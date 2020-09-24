@@ -3,7 +3,7 @@ before:
     - go test ./...
 
 builds:
-  - id: signable
+  - id: master
     mod_timestamp: '{{ .CommitTimestamp }}'
     targets:
       - darwin_amd64
